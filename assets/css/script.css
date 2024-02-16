@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.container-header{
+    height: 180px;
+    background-color: rgb(16, 16, 70);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    
+}
+.container-header header{
+    margin: 100px;
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+.container-header header p{
+  margin-left: 10px;
+}
+.container-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: rgb(11, 163, 163);
+}
+.container-menu ul{
+   display: flex;
+   gap: 70px; 
+   text-transform: uppercase;
+   list-style: none;
+}
+
+.container-progress {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-progress section{
+    margin-top: 20px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+}
